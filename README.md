@@ -22,6 +22,7 @@ These game's action is discreate, use simple DQN algorithms to implement it.
 
 ## BipedalWalker 
 This game's action is continuous, so you can use PPO or SAC to implement it.DQN is not good at it
+![example gif](https://raw.githubusercontent.com/Helloworld2345567/Some-simple-gym-game-implemention/blob/master/BipedalWalkerHardcore-SAC/gif/result_hard6000.gif)
 <img src="https://github.com/Helloworld2345567/Some-simple-gym-game-implemention/blob/master/BipedalWalkerHardcore-SAC/gif/result_hard6000.gif" alt="animation">
 
 ### SAC：

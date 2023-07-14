@@ -6,7 +6,15 @@ numpy 1.24.0\
 gym 0.26.2\
 gym  atari and box2d dependency\
 _Don't worry about envirnment problems.High compatibility it has._
+非常感谢您提供的更新信息！下面是包含这些信息的表格整理：
 
+| 微调类型           | Epoch | 步数  | Loss  | 时间      | GPU     |
+|----------------|------ |------ |-------|----------|---------|
+| 7B-Lora        | 128   | 12800 | 1.24  | 12.58小时 | 3张3090 |
+| 3B-Lora        | 32    | 3200  | 1.42  | 5.43小时  | 2张3090 |
+| 3B-Full-finetune | 32    | 16384 | 0.45  | 19.07小时 | 3张3090+CPU |
+
+希望这个更新的表格能帮到您！如果还有其他问题，请随时提问。
 **install gym:**
 ```
 pip install gym
